@@ -96,6 +96,10 @@ module.exports = {
     },
     _storeCourses: async () => {
         //TODO: Take scraped courses and store into DB
-    }
+    },
+    scrape: async () => {
+        //TODO: Define a base scraper function
+        // When the above methods are not suffice
+    },
 };
 
