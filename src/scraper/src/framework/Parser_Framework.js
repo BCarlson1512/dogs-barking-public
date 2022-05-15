@@ -44,5 +44,15 @@ module.exports = {
         [Fields.COURSE_WEIGHT]: async (element, options = {}) => {},
         [Fields.SCHOOL]: async (element, options = {}) => {},
         [Fields.REQUIREMENTS]: async (element, options = {}) => {},        
-    }
+    },
+    setupParser: async () => {
+        //TODO: setup a basis for parsing data 
+    },
+    parseAttribute: async () => {
+        //TODO: Define logic for parsing a single attribute
+    },
+    parseCourse: async () => {
+        //TODO: define logic for generic parsing
+        // Only to be used when the above is not suffice
+    },
 }
